@@ -1,60 +1,55 @@
 @extends('sablony.sablona')
 @section('kontent')
-        <section>
+<section>
             <div class="telo">
                 <div class="karty">
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Asijská kuchyně</p>
+                        <p>Chopstix</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Indická kuchyně</p>
+                        <p>Homy Asian Fusion</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Česká kuchyně</p>
-                    </div>
-                </div>
-                <div class="karty">
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Kebab</p>
-                    </div>
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Italská kuchyně</p>
-                    </div>
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Mexická kuchyně</p>
+                        <p>King Sheng Restaurant</p>
                     </div>
                 </div>
                 <div class="karty">
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Menza</p>
+                        <p>Lotus</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p></p>
+                        <p>Mekong</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p></p>
+                        <p>SAYAM</p>
+                    </div>
+                </div>
+                <div class="karty">
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>U Bílého dráčka</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Victory Asia Restaurant</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Zlatý drak</p>
                     </div>
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-auto"><a class="dalsi" href="konkretni_jidlo_cina.html">Pokračovat</a></div>
-                    <div class="col-auto"><a class="dalsi" href="konkretni_jidlo_mexico.html">Je mi to jedno</a></div>
+                    <div class="col-auto"><a class="dalsi" href="">Pokračovat</a></div>
+                    <div class="col-auto"><a class="dalsi" href="">Je mi to jedno</a></div>
                 </div>
                 <br>
             </div>
-            @foreach($restaurace as $konkterni_restaurace)
-            <div>
-                {{$konkterni_restaurace->typ}}
-            </div>
-            @endforeach
         </section>
-@endsection
+        @endsection

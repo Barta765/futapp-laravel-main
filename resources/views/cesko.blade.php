@@ -1,39 +1,53 @@
 @extends('sablony.sablona')
 @section('kontent')
-        <section>
+<section>
             <div class="telo">
                 <div class="karty">
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Asijská kuchyně</p>
+                        <p>Hospoda Na Spilce</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Indická kuchyně</p>
+                        <p>Lokál Pod Divadlem</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Česká kuchyně</p>
-                    </div>
-                </div>
-                <div class="karty">
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Kebab</p>
-                    </div>
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Italská kuchyně</p>
-                    </div>
-                    <div class="karta">
-                        <img src="/img/IMG_0033.png">
-                        <p>Mexická kuchyně</p>
+                        <p>Plzeňka</p>
                     </div>
                 </div>
                 <div class="karty">
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
-                        <p>Menza</p>
+                        <p>Potrefená Husa</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>restaurace Žumbera</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Švejk - TIVOLI</p>
+                    </div>
+                </div>
+                <div class="karty">
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Švejk - U pětatřicátníků</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Uctívaný Velbloud</p>
+                    </div>
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>U Mansfelda</p>
+                    </div>
+                </div>
+                <div class="karty">
+                    <div class="karta">
+                        <img src="/img/IMG_0033.png">
+                        <p>Švejk - U U Motlíků</p>
                     </div>
                     <div class="karta">
                         <img src="/img/IMG_0033.png">
@@ -46,15 +60,10 @@
                 </div>
                 <br>
                 <div class="row">
-                    <div class="col-auto"><a class="dalsi" href="konkretni_jidlo_cina.html">Pokračovat</a></div>
-                    <div class="col-auto"><a class="dalsi" href="konkretni_jidlo_mexico.html">Je mi to jedno</a></div>
+                    <div class="col-auto"><a class="dalsi" href="">Pokračovat</a></div>
+                    <div class="col-auto"><a class="dalsi" href="">Je mi to jedno</a></div>
                 </div>
                 <br>
             </div>
-            @foreach($restaurace as $konkterni_restaurace)
-            <div>
-                {{$konkterni_restaurace->typ}}
-            </div>
-            @endforeach
         </section>
-@endsection
+        @endsection
